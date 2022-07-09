@@ -149,8 +149,8 @@ d3.json(url).then(function (data) {
     //     layers: [mapLayer, earthquakes]
     // });
     // Create a legend for the map based on the earthquakes data and colors
-    var legend = L.control({ position: "bottomright" });
-    legend.onAdd = function () {
+    var legend = L.control({position: "bottomright"});
+    legend.onAdd = function() {
         var div = L.DomUtil.create("div", "info legend");
         var colors = [
             "rgb(183, 243, 77)",
