@@ -102,7 +102,7 @@ d3.json(url).then(function (data) {
             "rgb(240, 107, 107)"];
         var labels = [];
 
-        var legendInfo = "<h2>Earthquake intensity<h2>" +
+        var legendInfo = "<h3>Earthquake intensity<h3>" +
             "<div class=\"labels\">" +
             "<div class=\"max\">5+</div>" +
             "<div class=\"fourth\">4-5</div>" +
